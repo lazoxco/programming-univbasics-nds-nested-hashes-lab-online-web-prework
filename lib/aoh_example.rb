@@ -17,11 +17,11 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   array_of_hashes = [
-      { DON_G[0][:name], DON_G[0][:occupation] },
-      { JOELLE_VD[0][:name], JOELLE_VD[0][:occupation] },
-      { PAT_M[0][:name], PAT_M[0][:occupation] },
-      { KATE_G[0][:name], KATE_G[0][:occupation] },
-      { BRUCE_G[0][:name], BRUCE_G[0][:occupation] },
+      { DON_G },
+      { JOELLE_VD },
+      { PAT_M },
+      { KATE_G },
+      { BRUCE_G },
     ]
 end
 
