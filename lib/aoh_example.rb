@@ -17,7 +17,7 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   array_of_hashes = [
-    { DON_G[:name], DON_G[:occupation]}
+      { DON_G[:name], DON_G[:occupation]},
     ]
 end
 
