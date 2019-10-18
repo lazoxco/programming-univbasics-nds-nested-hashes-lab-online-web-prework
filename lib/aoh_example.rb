@@ -18,10 +18,10 @@ def literal_aoh
   # held in the constants
   array_of_hashes = [
       { DON_G[0][:name], DON_G[0][:occupation] },
-      { JOELLE_VD[:name], JOELLE_VD[:occupation] },
-      { PAT_M[:name], PAT_M[:occupation] },
-      { KATE_G[:name], KATE_G[:occupation] },
-      { BRUCE_G[:name], BRUCE_G[:occupation] },
+      { JOELLE_VD[0][:name], JOELLE_VD[0][:occupation] },
+      { PAT_M[0][:name], PAT_M[0][:occupation] },
+      { KATE_G[0][:name], KATE_G[0][:occupation] },
+      { BRUCE_G[0][:name], BRUCE_G[0][:occupation] },
     ]
 end
 
